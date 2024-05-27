@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiAppCinema.categorias.Aventura.MainAventura"
              >
-    <!--Aos visitantes, deem uma estrelinha no meu github :D -->
+
     <ContentPage.Resources>
         <ResourceDictionary>
             <Style x:Key="iBtncommon" TargetType="ImageButton">
@@ -33,25 +33,25 @@
                 <ImageButton Grid.Row="1" Grid.Column="0"
             Style="{StaticResource iBtncommon}"
             x:Name="filme1a"  Clicked="filme1a_Clicked"
-            Source="jumanji.jpg"
+            Source="aven1.jpg"
             Aspect="AspectFill"
             />
                 <ImageButton Grid.Row="1" Grid.Column="1"
             Style="{StaticResource iBtncommon}"
             x:Name="filme2a"  Clicked="filme2a_Clicked"
-            Source="interstellar.jpg"   
+            Source="aven2.jpg"   
             Aspect="AspectFill"/>
 
                 <ImageButton Grid.Row="2" Grid.Column="0"
             Style="{StaticResource iBtncommon}"
             x:Name="filme3a"  Clicked="filme3a_Clicked"
-            Source="aventura.png"
+            Source="aven3.jpg"
             Aspect="AspectFill"/>
 
                 <ImageButton Grid.Row="2" Grid.Column="1"
             Style="{StaticResource iBtncommon}"
             x:Name="filme4a" Clicked="filme4a_Clicked"
-            Source="aventura.png"
+            Source="aven4].jpg"
             Aspect="AspectFill"/>
 
             </Grid>

@@ -33,25 +33,25 @@
                 <ImageButton Grid.Row="1" Grid.Column="0"
         Style="{StaticResource iBtncommon}"
         x:Name="filme1an"  Clicked="filme1an_Clicked"
-        Source="donatello.png"
+        Source="anim1.jpg"
         Aspect="AspectFill"
         />
                 <ImageButton Grid.Row="1" Grid.Column="1"
         Style="{StaticResource iBtncommon}"
         x:Name="filme2an"  Clicked="filme2an_Clicked"
-        Source="donatello.png"   
+        Source="anim2.jpg"   
         Aspect="AspectFill"/>
 
                 <ImageButton Grid.Row="2" Grid.Column="0"
         Style="{StaticResource iBtncommon}"
         x:Name="filme3an"  Clicked="filme3an_Clicked"
-        Source="donatello.png"
+        Source="anim3.jpg"
         Aspect="AspectFill"/>
 
                 <ImageButton Grid.Row="2" Grid.Column="1"
         Style="{StaticResource iBtncommon}"
         x:Name="filme4an" Clicked="filme4an_Clicked"
-        Source="donatello.png"
+        Source="anim4.jpg"
         Aspect="AspectFill"/>
 
             </Grid>
